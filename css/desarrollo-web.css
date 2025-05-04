@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 30px;
-    padding: 40px;
+
 }
 
 .columna-izquierda {
@@ -101,7 +101,7 @@ tbody td {
 }
 
 .card {
-    background-color: #C3D9AE; 
+    background-color: #d1ffc9; 
     padding: 15px;
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -119,13 +119,19 @@ tbody td {
 }
 
 .card.obligatorio {
-    background-color: #C39AC7; 
+    background-color: #f4cff8; 
     color: white;
 }
 
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card ul li {
+    color: rgb(56, 56, 243);
+    text-decoration: underline;
+    list-style: none;
 }
 
 @media (max-width: 600px) {

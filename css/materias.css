@@ -87,16 +87,18 @@ main {
 .boton-materia {
     display: inline-block;
     padding: 12px 24px;
-    background: linear-gradient(90deg, #B1DDEC, #C3D9AE);
+    background: #d95580;
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 18px;
     transition: background 0.3s ease;
 }
-  
+
 .boton-materia:hover {
-    background: linear-gradient(90deg, #AEDDF0, #C3D9AE);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
   
 @media (max-width: 768px) {
